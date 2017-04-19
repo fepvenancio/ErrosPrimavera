@@ -1,0 +1,8 @@
+Regedit:
+CurrentUser
+Software
+Microsoft
+VBA
+
+Criar pasta - Security
+Criar DWord 32 Bits - Hexadecimal 4 "LoadControlsInForms"

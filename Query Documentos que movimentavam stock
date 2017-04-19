@@ -1,0 +1,18 @@
+Correr nas linhasSTK ele diz a query para corrigir e diz quais os documentos que movimentavam stock e deixaram de o fazer.
+
+
+select distinct modulo, tipodoc
+, Case Modulo
+When 'C' THEN 'Update DocumentosCompra Set LigaStocks=1 Where Documento=''' + tipodoc + ''''
+When 'V' THEN 'Update DocumentosVenda Set LigaStocks=1 Where Documento=''' + tipodoc + ''''
+When 'N' THEN 'Update DocumentosInternos Set LigaStocks=1 Where Documento=''' + tipodoc + ''''
+END as 'Comando a correr'
+from linhasstk
+left join DocumentosStk on LinhasSTK.Modulo='S' and LinhasSTK.TipoDoc=DocumentosStk.Documento
+left join DocumentosCompra on LinhasSTK.Modulo='C' and LinhasSTK.TipoDoc=DocumentosCompra.Documento and DocumentosCompra.LigaStocks='1'
+left join DocumentosVenda on LinhasSTK.Modulo='V' and LinhasSTK.TipoDoc=DocumentosVenda.Documento and DocumentosVenda.LigaStocks='1'
+left join DocumentosInternos on LinhasSTK.Modulo='N' and LinhasSTK.TipoDoc=DocumentosInternos.Documento and DocumentosInternos.LigaStocks='1'
+where DocumentosStk.Descricao is null
+and DocumentosCompra.Descricao is null
+and DocumentosVenda.Descricao is null
+and DocumentosInternos.Descricao is null

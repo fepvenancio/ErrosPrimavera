@@ -1,0 +1,45 @@
+Conforme acordado o problema em situações anteriores resolveu-se 1 de 2 formas:
+
+ 
+
+Colocar o certificado Baltimore Cyber Trust Root que pode descarregar aqui https://dl.dropboxusercontent.com/u/60862867/Baltimore.cer.zip que é a root do certificado PRIMAVERA. Este certificado está presente em todos os novos SO da Microsoft, mas em alguns casos do Windows XP e Server 2003 pode não estar presente. Por tal, deve importá-lo para a máquina com problemas para "Autoridades de Certificação."
+
+Abrir: MMC.EXE
+
+Adicionar Snap-In - Certificados
+
+ 
+
+ 
+
+Antes de instalar o certificado, através do executar da máquina devem aceder a certmgr.msc, aqui deve apagar as entradas Baltimore que encontrar mas que, em principio, estarão em:
+
+ 
+
+Trusted Root Certification Authorities - > certificates
+
+Intermediate Certification Authorities -> Certificates
+
+Third-Party Root Certification Aithorities -> Certificates
+
+ 
+
+De seguida deve importar os certificados. Ao clicar sobre eles, o sistema operativo deverá coloca-los na localização correta.
+
+ 
+
+Outra possibilidade é instalar manualmente o certificado, para tal aceda às propriedades do ficheiro:
+
+"C:\Program Files (x86)\PRIMAVERA\SG900\Apl\Erp900LE.exe"
+
+Digital Signatures | Selecionar a linha e Details | View Certificate | Install Certificate
+
+Store Location : Local Machine
+
+ 
+
+ 
+
+Outra forma é mesmo registar a Capicom.dll.
+
+

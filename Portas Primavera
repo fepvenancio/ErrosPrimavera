@@ -1,0 +1,19 @@
+No seguimento deste pedido, vimos por este meio remeter a resposta em relação ao assunto.
+Os urls necessários pelo PRIMAVERA Windows Service /Deployment Center são:
+ 
+Em termos de acessos devem criar as condições para acesso aos seguintes endereços:
+Pesquisa, gestão e reporting - Comunicação com webServer PRIMAVERA (www.primaverabss.com)
+
+Download de atualizações - Comunicação com os hosts:
+builds3.primaverabss.com
+builds5.primaverabss.com
+builds1.primaverabss.com
+
+É necessário que sejam garantidas condições de comunicação com estes hosts (exterior), pela porta 80 ao utilizador do serviço (LOCAL SYSTEM ACCOUNT) na infraestrutura do cliente.
+Estes são os acessos necessários para que os serviços do Deployment Center possa responder.
+
+Cloud Services:
+www.primaveraspace.com
+
+
+

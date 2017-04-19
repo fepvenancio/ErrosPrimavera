@@ -1,0 +1,11 @@
+CREATE FUNCTION [dbo].[RHP_GetTipoVenc]
+(
+@NumProc INT
+)
+RETURNS SMALLINT
+AS
+BEGIN
+DECLARE @Result SMALLINT
+SELECT @Result = TipoVenc FROM MovimentosFuncionarios WHERE NumProc = @NumProc AND IDLinha = 1
+RETURN(@Result)
+END

@@ -1,0 +1,10 @@
+O ERP não está a abrir está a dar erro 52 Bad File Name or Number.
+
+Foi efetuado o acesso remoto, copiado o ficheiro xceedzip.ocx da minha maquina e registado, mas não resolveu. Efetuei a reparação da instalação como administrador e a maquina pediu para reiniciar. Pedi para reiniciar e caso o problema não ficasse resolvido para efetuar os passos abaixo:
+- Desinstale a aplicação totalmente, pelo painel de controlo;
+- Elimine os ficheiros da pasta Primavera nos ficheiros comuns, se existir;
+- Efectue uma limpeza do registry, com uma ferramenta apropriada, como por exemplo o CCleaner, que se pode obter gratuitamente através da Internet. Convém correr o utilitário 2 ou 3 vezes, para garantir que são corrigidos a maior parte dos problemas;
+- Volte a reiniciar a máquina;
+- Renomeie a pasta: C:\Program Files\Common Files\InstallShield.
+- Instale a aplicação garantindo que o user tem permissões de Administrador do PC e tem UAC, antivirus e firewall desligados.
+

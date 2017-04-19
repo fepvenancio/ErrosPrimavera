@@ -1,0 +1,32 @@
+Ir ate ao caminho:
+
+C:\Program Files (x86)\PRIMAVERA\SG900\Apl
+
+Renomear para qq coisa os ficheiros:
+
+Erp900LP.exe.config
+Erp900LP.exe.manifest
+
+ou 
+
+Erp900LP.exe.config
+Erp900LP.exe.manifest
+
+Reabrir o Primavera.
+
+__________________________________________________________________________________________
+Se o caso apenas acontecer em determinados utilizadores
+(administrador abre mas um user normal nao, na mesma maquina)
+
+Ir a: 
+
+C:\Program Files (x86)\PRIMAVERA\SG900\Config\LE
+
+Ou
+
+C:\Program Files (x86)\PRIMAVERA\SG900\Config\LP
+
+e alterar a pasta com o nome de utilizador para .old o que for e reabrir.
+
+___________________________________________________________________________________________
+Certificar-se que todos os módulos estão na mesma service release no servidor e nos postos.
