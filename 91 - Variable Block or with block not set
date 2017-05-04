@@ -30,3 +30,7 @@ e alterar a pasta com o nome de utilizador para .old o que for e reabrir.
 
 ___________________________________________________________________________________________
 Certificar-se que todos os módulos estão na mesma service release no servidor e nos postos.
+
+___________________________________________________________________________________________
+HP Client Security por vezes nao deixa instalar os componentes o ideal e desinstalar e 
+correr o ficheiro superDll para registar os componentes.
