@@ -1,0 +1,16 @@
+UPDATE CadastroPessoal 
+SET Anterior = CONCAT(SUBSTRING(anterior,4,2),'-',SUBSTRING(anterior,1,2),'-',SUBSTRING(anterior,7,4))
+WHERE  Grupo = 'S016' AND Anterior IS NOT NULL   and substring(anterior, 4,2) > 12
+
+UPDATE CadastroPessoal 
+SET Novo = CONCAT(SUBSTRING(Novo,4,2),'-',SUBSTRING(Novo,1,2),'-',SUBSTRING(Novo,7,4))
+WHERE  Grupo = 'S016' AND Novo IS NOT NULL   and substring(Novo, 4,2) > 12
+
+
+UPDATE CadastroPessoal 
+SET Anterior = CONCAT(SUBSTRING(anterior,4,2),'-',SUBSTRING(anterior,1,2),'-',SUBSTRING(anterior,7,4))
+WHERE  Grupo = 'S018' AND Anterior IS NOT NULL   and substring(anterior, 4,2) > 12
+
+UPDATE CadastroPessoal 
+SET Novo = CONCAT(SUBSTRING(Novo,4,2),'-',SUBSTRING(Novo,1,2),'-',SUBSTRING(Novo,7,4))
+WHERE  Grupo = 'S018' AND Novo IS NOT NULL   and substring(Novo, 4,2) > 12
