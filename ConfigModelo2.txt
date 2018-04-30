@@ -1,0 +1,25 @@
+Como configurar a declaração Modelo 2/Modelo 8?
+
+Para a Declaração Modelo 2 / Modelo 8 ser gerada, é necessário configurar correctamente os Tipos de Rendimento no respectivo separador "Modelos Fiscais", associando o tipo de rendimento a considerar no modelo M/2 e definindo a categoria respectiva, quer no módulo de Recursos Humanos, quer no módulo de Contabilidade.
+
+Para obter os valores do modulo da Contabilidade, os mesmos serão obtidos das retenções recolhidas na Contabilidade para os Tipos de Rendimento configurados segundo o parágrafo anterior.
+
+Caso venham dos Recursos Humanos, os valores são resultantes dos processamentos dos vencimentos dos funcionários ou, no caso dos independentes, dos valores existentes no processamento de vencimentos dos independentes e no processamento das actividades para aqueles tipos de rendimento configurados segundo o primeiro parágrafo.
+
+Para configurar os Tipos de Rendimento, executar os seguintes passos:
+
+Aceder a Tabelas | Gerais | Terceiros | Outras Tabelas | Tipos de Rendimentos;
+Para cada tipo de rendimento no separador modelos fiscais configurar: 
+   - O Modelo (M/2);
+   - A Categoria.
+Confirmar.
+Por exemplo:
+
+Para obter os valores de retenção automaticamente de um funcionário dependente, ao gerar a delaração Modelo 2, devem ser garantidos os seguintes passos: 
+
+Abrir e preencher ficha do funcionário, em Recursos Humanos | Salários e Honorários| Funcionários;
+No separador "Dados Fiscais", definir o “Tipo de Rendimento";
+Gravar;
+Efectuar o Processamento (Automático ou Manual), disponivel em Recursos Humanos | Salários e Honorários| Processamentos;
+No caso do processamento manual, efectuar “Pagamentos-Processamento” disponivel em Recursos Humanos | Salários e Honorários| Pagamentos - Processamento.
+Depois de garantidos os passos anteriores, dado que no PFR o processamento dos modelos segue sempre os mesmos passos, para o processamento do Modelo 2 é necessário seguir os passos indicados no artigo "Quais os passos a realizar para a entrega de um modelo?".
