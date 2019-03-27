@@ -1,0 +1,3 @@
+Verificar se os anos contabilisticos no plano de contas
+"SELECT DISTINCT Ano FROM PlanoContas"
+é igual aos anos existentes na tabela ExerciciosCBL
