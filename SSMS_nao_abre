@@ -1,0 +1,6 @@
+Problemas a abrir o SSMS (SQL Server Management Studio) ultima versao (18.0) deve copiar a DLL:
+Microsoft.VisualStudio.Shell.Interop.8.0.dll
+de: 
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\PrivateAssemblies\Interop
+e colar em: 
+C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\PublicAssemblies
